@@ -123,6 +123,9 @@ footer {
   padding: 1rem;
   text-align: center; }
 
+.contact-container {
+  padding: 3rem; }
+
 .social-media ul {
   display: flex;
   flex-direction: row;
