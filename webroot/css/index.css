@@ -119,4 +119,5 @@ body > [type="checkbox"],
     display: none; } }
 
 footer {
-  background-color: midnightblue; }
+  background-color: midnightblue;
+  padding: 1rem; }
