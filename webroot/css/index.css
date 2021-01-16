@@ -121,3 +121,6 @@ body > [type="checkbox"],
 footer {
   background-color: midnightblue;
   padding: 1rem; }
+
+.media-icon {
+  width: 40px; }
