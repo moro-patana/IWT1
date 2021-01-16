@@ -143,6 +143,13 @@ a {
   font-size: 30px;
   color: white; }
 
+.request {
+  background-color: cyan;
+  border: none;
+  padding: 1rem;
+  border-radius: 50px;
+  color: white; }
+
 @media (min-width: 1114px) {
   .contact-container {
     display: flex;
