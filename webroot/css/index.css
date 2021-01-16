@@ -129,7 +129,11 @@ body > [type="checkbox"],
 
 .blog_list {
   background-color: white;
-  border-radius: 5px; }
+  border-radius: 5px;
+  margin-top: 2rem; }
+
+.blog_details {
+  padding: 2rem; }
 
 footer {
   background-color: midnightblue;
