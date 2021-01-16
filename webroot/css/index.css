@@ -127,6 +127,9 @@ body > [type="checkbox"],
   body > nav a {
     color: black; } }
 
+.blog_container {
+  padding-bottom: 2rem; }
+
 .blog_list {
   background-color: white;
   border-radius: 5px;
