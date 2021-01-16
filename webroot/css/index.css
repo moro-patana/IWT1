@@ -4,6 +4,9 @@ li {
 a {
   text-decoration: none; }
 
+img {
+  width: 100%; }
+
 .menu {
   padding: 1rem;
   border-radius: 10px;
