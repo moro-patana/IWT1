@@ -104,3 +104,6 @@ body > [type="checkbox"],
     padding: 1rem; }
   .icon_menu {
     display: none; } }
+
+footer {
+  background-color: midnightblue; }
