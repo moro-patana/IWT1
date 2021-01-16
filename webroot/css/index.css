@@ -127,6 +127,12 @@ body > [type="checkbox"],
   body > nav a {
     color: black; } }
 
+.masthead {
+  background-image: url("../img/bg-intro-mobile.svg"), url("../img/image-mockups.png");
+  background-repeat: no-repeat;
+  background-size: cover cover;
+  background-blend-mode: overlay; }
+
 .blog_container {
   padding-bottom: 2rem; }
 
