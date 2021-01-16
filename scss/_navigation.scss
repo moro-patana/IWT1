@@ -1,1 +1,118 @@
-@import "navigation.scss";
+@import "variables";
+.menu {
+  padding: 1rem;
+  border-radius: 10px;
+  margin: 1rem;
+  background-color: aliceblue;
+  position: absolute;
+  z-index: 3;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 250px;
+  height: 420px;
+  box-shadow: 0 0 50px rgba(0,0,0,.5);
+  transform: translateX(-110%);
+  transition: transform 0.3s;
+}
+
+body > [type="checkbox"]:checked ~ .menu {
+  transform: translateX(0);
+}
+
+body > [type="checkbox"]:checked ~ header label {
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0,0,0,.25);
+}
+
+body > [type="checkbox"]:checked ~ main {
+  z-index: 1;
+  opacity: 0.5;
+}
+
+
+.icon_menu {
+  width: 1rem;
+  height: 1rem;
+  display: block;
+  background-image: url("../images/menu-icon.png");
+  background-size: 20px;
+  background-repeat: no-repeat;
+}
+.a11y,
+[type="checkbox"] {
+  opacity: 0;
+}
+
+.menu ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu li a {
+  text-transform: uppercase;
+  color: rgb(0, 0, 0);
+  opacity: 0.5;
+  font-weight: 700;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  transition: opacity 0.3s;
+  display: block;
+  padding: 1rem 1rem 1rem 4rem;
+}
+
+
+body > nav > ul a:hover {
+  opacity: 1;
+}
+
+body > [type="checkbox"],
+.icon_menu {
+  position: absolute;
+  top: 2.5rem;
+  right: 1rem;
+}
+
+@media(min-width: $content-width) {
+  .menu {
+    padding: 0;
+    background-color: transparent;
+    top: 0;
+    left: auto;
+    right: 0;
+    bottom: auto;
+    width: auto;
+    box-shadow: none;
+    transform: none;
+    transition: none
+  }
+
+/* Switch from column to row flex */
+  .menu ul {
+    flex-direction: row;
+    margin-right: 6rem;
+  }
+  .icon_menu {
+    display: none;
+  }
+  .menu li a {
+    font-family: $secondary-font-family;
+    font-style: $normal-style;
+    font-weight: $bold-size;
+    font-size: $anchors-size;
+    line-height: $anchors-height;
+    text-transform: capitalize;
+    color: white;
+    color: $light-color;
+    opacity: 1;
+  }
+
+
+}
