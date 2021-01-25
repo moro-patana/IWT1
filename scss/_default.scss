@@ -3,6 +3,10 @@ body {
     padding: 1rem;
     background-color: ghostwhite;
 }
+h2 {
+    font-size: 40px;
+    text-align: center;
+}
 li {
     list-style: none;
 }
@@ -11,4 +15,20 @@ a {
 }
 img {
     width: 100%;
+}
+.request {
+    background: linear-gradient(to right, limegreen, rgb(17, 192, 192));
+    border: none;
+    padding: 1rem;
+    border-radius: 50px;
+    color: white;
+    cursor: pointer;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 16px;
+}
+.copyright {
+    color: white;
 }
