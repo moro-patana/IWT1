@@ -162,6 +162,10 @@ body > [type="checkbox"],
   padding-top: 454px;
   text-align: center; }
 
+@media (min-width: 1114px) {
+  .masthead {
+    text-align: left; } }
+
 .careers > header {
   text-align: center; }
 
