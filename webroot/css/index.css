@@ -164,7 +164,15 @@ body > [type="checkbox"],
 
 @media (min-width: 1114px) {
   .masthead {
-    text-align: left; } }
+    text-align: left;
+    background-size: 454px;
+    background-position: 50% 50%, 50% 50%;
+    padding-top: 100px;
+    padding-bottom: 200px;
+    max-width: 1114px;
+    margin: 0 auto; }
+  .masthead_container {
+    width: 350px; } }
 
 .careers > header {
   text-align: center; }
