@@ -7,3 +7,22 @@
 .careers_list img {
     width: 70px;
 }
+@media (min-width: 1114px) {
+    .careers {
+        max-width: 1114px;
+        margin: 0 auto;
+    }
+    .careers_container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        column-gap: 20px;
+    }
+    .careers > header {
+        text-align: left;
+        width: 567px;
+        padding-bottom: 50px;
+    }
+    .careers_list {
+        text-align: left;
+    }
+}
