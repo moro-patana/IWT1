@@ -3,6 +3,10 @@ body {
   padding: 1rem;
   background-color: ghostwhite; }
 
+h2 {
+  font-size: 40px;
+  text-align: center; }
+
 li {
   list-style: none; }
 
@@ -11,6 +15,22 @@ a {
 
 img {
   width: 100%; }
+
+.request {
+  background: linear-gradient(to right, limegreen, #11c0c0);
+  border: none;
+  padding: 1rem;
+  border-radius: 50px;
+  color: white;
+  cursor: pointer;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 16px; }
+
+.copyright {
+  color: white; }
 
 .menu {
   padding: 1rem;
@@ -52,7 +72,8 @@ body > header .icon_menu {
   display: block;
   background-image: url("../img/menu-icon.svg");
   background-size: 40px;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  cursor: pointer; }
 
 body > nav .icon_menu {
   width: 50px;
@@ -60,7 +81,8 @@ body > nav .icon_menu {
   display: block;
   background-image: url("../img/close-menu-icon.svg");
   background-size: 40px;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  cursor: pointer; }
 
 .menu li:nth-of-type(1),
 .menu li:nth-of-type(3) {
@@ -130,8 +152,20 @@ body > [type="checkbox"],
 .masthead {
   background-image: url("../img/bg-intro-mobile.svg"), url("../img/image-mockups.png");
   background-repeat: no-repeat;
-  background-size: cover cover;
-  background-blend-mode: overlay; }
+  background-size: 454px;
+  background-position: 50% 0%, 50% -248%;
+  background-blend-mode: overlay;
+  padding-top: 454px;
+  text-align: center; }
+
+.careers > header {
+  text-align: center; }
+
+.careers_list {
+  text-align: center; }
+
+.careers_list img {
+  width: 70px; }
 
 .blog_container {
   padding-bottom: 2rem; }
@@ -164,17 +198,8 @@ footer {
 
 a {
   font-size: 30px;
-  color: white; }
-
-.request {
-  background-color: cyan;
-  border: none;
-  padding: 1rem;
-  border-radius: 50px;
-  color: white; }
-
-.copyright {
-  color: white; }
+  color: white;
+  cursor: pointer; }
 
 @media (min-width: 1114px) {
   .contact-container {
