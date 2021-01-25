@@ -233,4 +233,6 @@ a {
   .contact-container {
     display: flex;
     flex-direction: row;
-    justify-content: space-between; } }
+    justify-content: space-between;
+    max-width: 1114px;
+    margin: 0 auto; } }
