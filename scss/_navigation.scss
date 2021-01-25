@@ -44,6 +44,7 @@
     background-image: url("../img/menu-icon.svg");
     background-size: 40px;
     background-repeat: no-repeat;
+    cursor: pointer;
   }
   body > nav .icon_menu {
     width: 50px;
@@ -52,6 +53,7 @@
     background-image: url("../img/close-menu-icon.svg");
     background-size: 40px;
     background-repeat: no-repeat;
+    cursor: pointer;
   }
 
   .menu li:nth-of-type(1),
