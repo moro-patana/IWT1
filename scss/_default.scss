@@ -32,3 +32,8 @@ img {
 .copyright {
     color: white;
 }
+@media (min-width: 1114px) {
+    h2 {
+        text-align: left;
+    }
+}
