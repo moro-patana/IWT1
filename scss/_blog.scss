@@ -10,6 +10,10 @@
     padding: 2rem;
 }
 @media (min-width: 1114px) {
+    .blog {
+        max-width: 1114px;
+        margin: 0 auto;
+    }
     .blog_container {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
