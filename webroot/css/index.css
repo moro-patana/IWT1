@@ -160,22 +160,14 @@ body > [type="checkbox"],
   .heading_container button {
     display: block; } }
 
-.masthead {
-  background-image: url("../img/bg-intro-mobile.svg"), url("../img/image-mockups.png");
-  background-repeat: no-repeat;
-  background-size: 454px;
-  background-position: 50% 0%, 50% -248%;
-  background-blend-mode: overlay;
-  padding-top: 454px;
-  text-align: center; }
-
 @media (min-width: 1114px) {
   .masthead {
+    background-image: url("../img/bg-intro-desktop.svg"), url("../img/image-mockups.png");
+    background-repeat: no-repeat;
+    background-position: 530px -151%, 684px -47%;
     text-align: left;
-    background-size: 800px;
-    background-position: 525px 5%, 654px 211%;
-    padding-bottom: 200px;
-    padding-left: 100px; }
+    padding-bottom: 60rem;
+    background-blend-mode: overlay; }
   .masthead_container {
     width: 350px; } }
 
