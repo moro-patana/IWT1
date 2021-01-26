@@ -107,7 +107,7 @@
   .menu {
     padding: 0;
     background-color: transparent;
-    top: 0;
+    top: -10%;
     left: auto;
     right: 0;
     bottom: auto;
@@ -120,8 +120,9 @@
   /* Switch from column to row flex */
   .menu ul {
     flex-direction: row;
-    margin-right: 6rem;
+    margin-right: 24rem;
     align-items: baseline;
+    padding-bottom: 2rem;
   }
   .menu li:nth-of-type(1),
   .menu li:nth-of-type(3) {
@@ -134,6 +135,11 @@
   body > nav a {
     color: black;
   }
+  body > header .icon_menu,
+  body > nav .icon_menu {
+    display: none;
+  }
+
   }
 
   
