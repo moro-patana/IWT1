@@ -10,15 +10,24 @@
 // }
 @media (min-width: 1114px) {
     .masthead {
-        background-image: url("../img/bg-intro-desktop.svg"),
-                       url("../img/image-mockups.png");
+        background-color: ghostwhite;
+        padding: 1rem;
+        background-image: 
+                       url("../img/image-mockups.png"),
+                       url("../img/bg-intro-desktop.svg");
         background-repeat: no-repeat;
-        background-position: 523px 210%, 124% 396%;;
+        background-position: 684px 255%, 515px 186%;
         text-align: left;
-        padding-bottom: 674px;
-        background-blend-mode: overlay;
+        padding-bottom: 500px;
+        margin-top: 2rem;
      }
     .masthead_container {
         width: 432px;
+        padding-left: 100px;
+    }
+    .masthead_container .info {
+    margin: 0;
+    font-size: 20px;
+    padding-bottom: 2rem;
     }
 }
