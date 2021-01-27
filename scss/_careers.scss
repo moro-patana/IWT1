@@ -1,3 +1,6 @@
+.careers {
+    background-color: transparent;
+}
 .careers > header {
     text-align: center;
 }
@@ -21,7 +24,7 @@
         grid-template-columns: repeat(4, 1fr);
         column-gap: 20px;
     }
-    .careers > header {
+    .careers_content > header {
         text-align: left;
         width: 616px;
         padding-bottom: 50px;
