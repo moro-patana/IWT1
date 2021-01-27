@@ -1,6 +1,10 @@
 .careers > header {
     text-align: center;
 }
+.careers_info,
+.careers_details {
+    font-size: 18px;
+}
 .careers_list {
     text-align: center;
 }
@@ -19,7 +23,7 @@
     }
     .careers > header {
         text-align: left;
-        width: 567px;
+        width: 616px;
         padding-bottom: 50px;
     }
     .careers_list {
