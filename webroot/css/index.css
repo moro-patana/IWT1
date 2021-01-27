@@ -177,7 +177,8 @@ body > [type="checkbox"],
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 30px;
-    padding-right: 30px; }
+    padding-right: 30px;
+    cursor: pointer; }
   .heading_container {
     max-width: 1114px;
     margin: 0 auto;
