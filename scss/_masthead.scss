@@ -1,32 +1,42 @@
-// .masthead {
-//     background-image: url("../img/bg-intro-mobile.svg"),
-//                        url("../img/image-mockups.png");
-//     background-repeat: no-repeat;
-//     background-size: 454px;
-//     background-position: 50% 0%, 50% -248%;
-//     background-blend-mode: overlay;
-//     padding-top: 454px;
-//     text-align: center;
-// }
-@media (min-width: 1114px) {
-    .masthead {
-        background-color: ghostwhite;
-        padding: 1rem;
-        background-image: 
-                       url("../img/image-mockups.png"),
-                       url("../img/bg-intro-desktop.svg");
-        background-repeat: no-repeat;
-        background-position: 684px 255%, 515px 186%;
-        text-align: left;
-        padding-bottom: 500px;
-     }
-    .masthead_container {
-        width: 432px;
-        padding-left: 100px;
-    }
-    .masthead_container .info {
+.masthead__header {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-block-start: 400px;
+    background-image: url("../img/image-mockups.png"), url("../img/bg-intro-desktop.svg");
+    background-position: 50% calc(100% + -364px), 25% calc(100% + -330px);
+    background-size: contain, cover;
+    background-repeat: no-repeat;
+}
+.masthead__header__container {
+    padding: 1rem;
+}
+.masthead__header__info {
     margin: 0;
-    font-size: 20px;
-    padding-bottom: 2rem;
+    padding: 1rem;
+    font-size: 18px;
+}
+.masthead__header__button {
+    margin-top: 30px;
+}
+@media (min-width: 1114px) {
+    .masthead__header {
+    background-size: 665px, 900px;
+    background-repeat: no-repeat;
+    background-position: 800px -106px, 646px -171px;
+    margin: auto;
+    text-align: left;
+    padding-top: 100px;
+    padding-bottom: 350px;
+    background-blend-mode: inherit;
+    }
+    .masthead__header__container {
+        text-align: left;
+        max-width: 1114px;
+        margin: 0 auto;
+    }
+    .masthead__header__info {
+        padding-left: 0;
+        width: 400px;
     }
 }
