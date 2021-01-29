@@ -1,21 +1,39 @@
+html {
+    font-family: "DM Sans";
+    color: rgb(95, 95, 148);
+}
 body {
     margin: 0;
-    padding: 1rem;
+    overflow-x: hidden;
     background-color: ghostwhite;
 }
-
+.page__container {
+    text-align: center;
+    padding: 1rem;
+}
 h2 {
     font-size: 40px;
-    text-align: center;
+    margin: 0;
+    padding-top: 30px;
 }
-li {
-    list-style: none;
+h3 {
+    margin: 0;
+    font-size: 35px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
-a {
-    text-decoration: none;
+h4 {
+    margin: 0;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 20px;
 }
+
 img {
     width: 100%;
+}
+.icon {
+    width: 50px;
 }
 .request {
     background: linear-gradient(to right, limegreen, rgb(17, 192, 192));
@@ -30,18 +48,22 @@ img {
     padding-right: 20px;
     font-size: 16px;
 }
-.copyright {
-    color: white;
+li {
+    list-style: none;
 }
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    cursor: pointer;
+}
+
 @media (min-width: 1114px) {
-    body {
-        padding: 0;
-    }
     h2 {
-        text-align: left;
-        font-size: 60px;
+    width: 400px;
+    font-size: 50px;
     }
-    a {
-        font-size: 26px;
+    .icon {
+        width: 64px;
     }
 }
