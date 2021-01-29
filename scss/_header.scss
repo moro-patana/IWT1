@@ -1,32 +1,19 @@
-.body_header {
- background-color: white;
-}
-.heading_container button {
-    display: none;
-}
-@media (min-width: 1114px) {
-    h1 {
-        margin: 0;
+.page__header {
+    padding: 1rem;
+    background-color: white;
     }
-    .heading_container button {
-        display: block;
-        padding-top: 20px;
-        padding-bottom: 20px;
-        padding-left: 30px;
-        padding-right: 30px;
-        cursor: pointer;
-     }
-    .heading_container {
-        max-width: 1114px;
-        margin: 0 auto;
-        padding: 1rem;
+    .page__header__container {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
     }
-    h1 > img {
-        width: 300px;
-        padding: 1rem;
+    .page__header__container button {
+        display: none;
     }
-}
+    @media (min-width: 1114px) {
+        .page__header__container .request {
+            display: block;
+            cursor: pointer;
+        }
+    }
